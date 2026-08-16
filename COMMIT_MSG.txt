@@ -1,9 +1,10 @@
-Static preview of the Triumph Family Lawyers theme
+Add team photos, remove preview banner, mobile fixes
 
-Exported from the local WordPress build for client design approval.
-
-Carries a preview banner and robots noindex: the stats, badges and reviews are
-carried over from the criminal law site and are not yet confirmed, and the
-enquiry forms have no backend in a static export.
+- Real headshots for Mohammed, Hasan, Asadullah and Ahmad replace the
+  initial monograms; bios updated to the firm's own wording
+- Preview banner removed at the client's request
+- Mobile: form inputs bumped to 16px so iOS Safari stops zooming the page
+  when a field is tapped, footer and nav tap targets raised to ~40px, and
+  small print lifted above 12px
 
 Co-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>

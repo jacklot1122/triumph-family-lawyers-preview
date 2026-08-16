@@ -759,3 +759,72 @@
   .value { grid-template-columns: 1fr; gap: 0.4rem; }
   .deet { flex-direction: row; }
 }
+
+/* ==========================================================================
+   Mobile refinements
+   ========================================================================== */
+
+@media (max-width: 940px) {
+
+  /* iOS Safari zooms the whole page when a focused field is under 16px.
+     On a lead-capture form that jump costs enquiries, so force 16px. */
+  .form input,
+  .form select,
+  .form textarea {
+    font-size: 16px;
+  }
+
+  /* Give thumbs something to hit. Menu and footer links render ~23px tall,
+     which is well under the ~44px comfortable target. */
+  .foot li { line-height: 1.7; }
+
+  .foot li a,
+  .foot__legal a {
+    display: inline-block;
+    padding-block: 0.45rem;
+  }
+
+  .callnum {
+    padding-block: 0.5rem;
+    font-size: 1.05rem;
+  }
+
+  /* Small print that was dipping under 12px */
+  .person__role { font-size: 0.75rem; letter-spacing: 0.13em; }
+  .tag { font-size: 0.72rem; }
+  .stats__l { font-size: 0.75rem; }
+  .form__privacy { font-size: 0.82rem; }
+  .foot__legal { font-size: 0.84rem; line-height: 1.7; }
+
+  /* Buttons: full width reads better and is easier to hit than a shrunken pill */
+  .callout__btns { width: 100%; }
+  .callout__btns .btn { width: 100%; }
+  .cta__btns .btn { width: 100%; }
+}
+
+@media (max-width: 620px) {
+
+  /* Stop the sticky header eating the screen on a phone */
+  .masthead__in { min-height: 66px; }
+  .logo img { width: 88px; }
+
+  /* Anchored sections shouldn't land under the sticky header */
+  .svc,
+  [id] { scroll-margin-top: 80px; }
+
+  /* Team cards: photo was taking most of the fold before any text showed */
+  .person__shot { aspect-ratio: 4 / 3; }
+  .person__body { padding: 1.2rem 1.2rem 1.4rem; }
+
+  .hero { padding-block: 2rem 2.4rem; }
+  .hero__in { gap: 1.8rem; }
+  .evalcard { padding: 1.3rem 1.1rem 1.4rem; }
+  .evalcard h2 { font-size: 1.32rem; }
+
+  .banner { padding-block: 2.2rem; }
+  .quote { padding: 2rem 1.3rem 1.6rem; }
+  .finalcta { padding: 1.6rem 1rem 1.8rem; }
+
+  /* Long headings were breaking mid-word on narrow screens */
+  h1, h2, .h2, .hero h1 { overflow-wrap: break-word; hyphens: none; }
+}
