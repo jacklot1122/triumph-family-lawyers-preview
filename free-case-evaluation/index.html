@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="https://gmpg.org/xfn/11">
+<title>Free Case Evaluation &#8211; Triumph Family Lawyers</title>
+<meta name='robots' content='max-image-preview:large' />
+<meta name="robots" content="noindex, nofollow, noarchive">
+<link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+<style>
+.tflx-bar{position:relative;z-index:500;background:#F5C00E;color:#111;font-family:Lato,Arial,sans-serif;
+font-size:13px;font-weight:700;text-align:center;padding:9px 14px;line-height:1.5;
+border-bottom:2px solid #111}
+.tflx-bar span{font-weight:400}
+@media(max-width:600px){.tflx-bar{font-size:11.5px}}
+</style>
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+
+<style id="wp-block-library-inline-css">
+/**
+ * Colors
+ */
+/**
+ * Typography
+ */
+/**
+ * SCSS Variables.
+ *
+ * Please use variables from this sheet to ensure consistency across the UI.
+ * Don't add to this sheet unless you're pretty sure the value will be reused in many places.
+ * For example, don't add rules to this sheet that affect block visuals. It's purely for UI.
+ */
+/**
+ * Fonts & basic variables.
+ */
+/**
+ * Typography
+ */
+/**
+ * Grid System.
+ * https://make.wordpress.org/design/2019/10/31/proposal-a-consistent-spacing-system-for-wordpress/
+ */
+/**
+ * Radius scale.
+ */
+/**
+ * Elevation scale.
+ */
+/**
+ * Dimensions.
+ */
+/**
+ * Mobile specific styles
+ */
+/**
+ * Editor styles.
+ */
+/**
+ * Block & Editor UI.
+ */
+/**
+ * Block paddings.
+ */
+/**
+ * React Native specific.
+ * These variables do not appear to be used anywhere else.
+ */
+/**
+ * Breakpoints & Media Queries
+ */
+/**
+*  Converts a hex value into the rgb equivalent.
+*
+* @param {string} hex - the hexadecimal value to convert
+* @return {string} comma separated rgb values
+*/
+/**
+ * Long content fade mixin
+ *
+ * Creates a fading overlay to signify that the content is longer
+ * than the space allows.
+ */
+/**
+ * Breakpoint mixins
+ */
+/**
+ * Focus styles.
+ */
+/**
+ * Applies editor left position to the selector passed as argument
+ */
+/**
+ * Styles that are reused verbatim in a few places
+ */
+/**
+ * Allows users to opt-out of animations via OS-level preferences.
+ */
+/**
+ * Reset default styles for JavaScript UI based pages.
+ * This is a WP-admin agnostic reset
+ */
+/**
+ * Reset the WP Admin page styles for Gutenberg-like pages.
+ */
+/**
+ * Creates a checkerboard pattern background to indicate transparency.
+ * @param {String} $size - The size of the squares in the checkerboard pattern. Default is 12px.
+ */
+:root {
+  --wp-block-synced-color: #7a00df;
+  --wp-block-synced-color--rgb: 122, 0, 223;
+  --wp-bound-block-color: var(--wp-block-synced-color);
+  --wp-editor-canvas-background: #ddd;
+  --wp-admin-theme-color: #007cba;
+  --wp-admin-theme-color--rgb: 0, 124, 186;
+  --wp-admin-theme-color-darker-10: rgb(0, 107, 160.5);
+  --wp-admin-theme-color-darker-10--rgb: 0, 107, 160.5;
+  --wp-admin-theme-color-darker-20: #005a87;
+  --wp-admin-theme-color-darker-20--rgb: 0, 90, 135;
+  --wp-admin-border-width-focus: 2px;
+}
+@media (min-resolution: 192dpi) {
+  :root {
+    --wp-admin-border-width-focus: 1.5px;
+  }
+}
+
+/**
+ * Element styles.
+ */
+.wp-element-button {
+  cursor: pointer;
+}
+
+:root .has-very-light-gray-background-color {
+  background-color: #eee;
+}
+:root .has-very-dark-gray-background-color {
+  background-color: #313131;
+}
+:root .has-very-light-gray-color {
+  color: #eee;
+}
+:root .has-very-dark-gray-color {
+  color: #313131;
+}
+:root {
+  /* stylelint-disable @stylistic/function-comma-space-after -- We can not use spacing because of WP multi site kses rule. */
+}
+:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background {
+  background: linear-gradient(135deg, rgb(0, 208, 132) 0%, rgb(6, 147, 227) 100%);
+}
+:root .has-purple-crush-gradient-background {
+  background: linear-gradient(135deg, rgb(52, 226, 228) 0%, rgb(71, 33, 251) 50%, rgb(171, 29, 254) 100%);
+}
+:root .has-hazy-dawn-gradient-background {
+  background: linear-gradient(135deg, rgb(250, 172, 168) 0%, rgb(218, 208, 236) 100%);
+}
+:root .has-subdued-olive-gradient-background {
+  background: linear-gradient(135deg, rgb(250, 250, 225) 0%, rgb(103, 166, 113) 100%);
+}
+:root .has-atomic-cream-gradient-background {
+  background: linear-gradient(135deg, rgb(253, 215, 154) 0%, rgb(0, 74, 89) 100%);
+}
+:root .has-nightshade-gradient-background {
+  background: linear-gradient(135deg, rgb(51, 9, 104) 0%, rgb(49, 205, 207) 100%);
+}
+:root .has-midnight-gradient-background {
+  background: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+}
+:root {
+  /* stylelint-enable @stylistic/function-comma-space-after */
+  --wp--preset--font-size--normal: 16px;
+  --wp--preset--font-size--huge: 42px;
+}
+
+.has-regular-font-size {
+  font-size: 1em;
+}
+
+.has-larger-font-size {
+  font-size: 2.625em;
+}
+
+.has-normal-font-size {
+  font-size: var(--wp--preset--font-size--normal);
+}
+
+.has-huge-font-size {
+  font-size: var(--wp--preset--font-size--huge);
+}
+
+:root .has-text-align-center {
+  text-align: center;
+}
+
+:root .has-text-align-left {
+  /*rtl:ignore*/
+  text-align: left;
+}
+
+:root .has-text-align-right {
+  /*rtl:ignore*/
+  text-align: right;
+}
+
+.has-fit-text {
+  white-space: nowrap !important;
+}
+
+#end-resizable-editor-section {
+  display: none;
+}
+
+.aligncenter {
+  clear: both;
+}
+
+.items-justified-left {
+  justify-content: flex-start;
+}
+
+.items-justified-center {
+  justify-content: center;
+}
+
+.items-justified-right {
+  justify-content: flex-end;
+}
+
+.items-justified-space-between {
+  justify-content: space-between;
+}
+
+.screen-reader-text {
+  border: 0;
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  word-wrap: normal !important;
+}
+
+.screen-reader-text:focus {
+  background-color: #ddd;
+  clip-path: none;
+  color: #444;
+  display: block;
+  font-size: 1em;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000;
+}
+
+/**
+ * The following provide a simple means of applying a default border style when
+ * a user first makes a selection in the border block support panel.
+ * This prevents issues such as where the user could set a border width
+ * and see no border due there being no border style set.
+ *
+ * This is intended to be removed once intelligent defaults can be set while
+ * making border selections via the block support.
+ *
+ * See: https://github.com/WordPress/gutenberg/pull/33743
+ */
+html :where(.has-border-color) {
+  border-style: solid;
+}
+
+html :where([style*=border-color]) {
+  border-style: solid;
+}
+
+html :where([style*=border-top-color]) {
+  border-top-style: solid;
+}
+
+html :where([style*=border-right-color]) {
+  /*rtl:ignore*/
+  border-right-style: solid;
+}
+
+html :where([style*=border-bottom-color]) {
+  border-bottom-style: solid;
+}
+
+html :where([style*=border-left-color]) {
+  /*rtl:ignore*/
+  border-left-style: solid;
+}
+
+html :where([style*=border-width]) {
+  border-style: solid;
+}
+
+html :where([style*=border-top-width]) {
+  border-top-style: solid;
+}
+
+html :where([style*=border-right-width]) {
+  /*rtl:ignore*/
+  border-right-style: solid;
+}
+
+html :where([style*=border-bottom-width]) {
+  border-bottom-style: solid;
+}
+
+html :where([style*=border-left-width]) {
+  /*rtl:ignore*/
+  border-left-style: solid;
+}
+
+/**
+ * Provide baseline responsiveness for images.
+ */
+html :where(img[class*=wp-image-]) {
+  height: auto;
+  max-width: 100%;
+}
+
+/**
+ * Reset user agent styles for figure element margins.
+ */
+:where(figure) {
+  margin: 0 0 1em 0;
+}
+
+html :where(.is-position-sticky) {
+  /* stylelint-disable length-zero-no-unit -- 0px is set explicitly so that it can be used in a calc value. */
+  --wp-admin--admin-bar--position-offset: var(--wp-admin--admin-bar--height, 0px);
+  /* stylelint-enable length-zero-no-unit */
+}
+
+@media screen and (max-width: 600px) {
+  html :where(.is-position-sticky) {
+    /* stylelint-disable length-zero-no-unit -- 0px is set explicitly so that it can be used in a calc value. */
+    --wp-admin--admin-bar--position-offset: 0px;
+    /* stylelint-enable length-zero-no-unit */
+  }
+}
+
+/*# sourceURL=/wp-includes/css/dist/block-library/common.css */
+</style>
+<style id="classic-theme-styles-inline-css">
+/**
+ * These rules are needed for backwards compatibility.
+ * They should match the button element rules in the base theme.json file.
+ */
+.wp-block-button__link {
+	color: #ffffff;
+	background-color: #32373c;
+	border-radius: 9999px; /* 100% causes an oval, but any explicit but really high value retains the pill shape. */
+
+	/* This needs a low specificity so it won't override the rules from the button element if defined in theme.json. */
+	box-shadow: none;
+	text-decoration: none;
+
+	/* The extra 2px are added to size solids the same as the outline versions.*/
+	padding: calc(0.667em + 2px) calc(1.333em + 2px);
+
+	font-size: 1.125em;
+}
+
+.wp-block-file__button {
+	background: #32373c;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+/*# sourceURL=/wp-includes/css/classic-themes.css */
+</style>
+
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='tfl-fonts-css' href='https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&#038;display=swap' media='all' />
+<link rel='stylesheet' id='tfl-theme-css' href='../wp-content/themes/triumph-family-law/assets/css/theme.css' media='all' />
+<link rel='stylesheet' id='tfl-wp-css' href='../wp-content/themes/triumph-family-law/assets/css/wordpress.css' media='all' />
+<link rel='stylesheet' id='tfl-style-css' href='../wp-content/themes/triumph-family-law/style.css' media='all' />
+<meta name="generator" content="WordPress 7.0.4" />
+<link rel="canonical" href="index.html" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox%3D%270%200%2032%2032%27%3E%3Crect%20width%3D%2732%27%20height%3D%2732%27%20fill%3D%27%2523000%27%2F%3E%3Cpath%20d%3D%27M9%2010.5h14M16%2010.5v12%27%20stroke%3D%27%2523F5C00E%27%20stroke-width%3D%272.8%27%20stroke-linecap%3D%27round%27%2F%3E%3C%2Fsvg%3E">
+<noscript><style>.rv{opacity:1;transform:none}</style></noscript>
+<style id="core-block-supports-inline-css">
+/**
+ * Core styles: block-supports
+ */
+
+/*# sourceURL=core-block-supports-inline-css */
+</style>
+
+</head>
+
+<body class="wp-singular page-template page-template-page-templates page-template-template-landing page-template-page-templatestemplate-landing-php page page-id-10 wp-embed-responsive wp-theme-triumph-family-law is-landing">
+<div class="tflx-bar">PREVIEW — design approval only. <span>Figures, badges and reviews are carried over from the criminal law site and are not yet confirmed. Forms are inactive.</span></div>
+<a class="skip-link sr" href="index.html#content">Skip to content</a>
+
+
+<header class="masthead masthead--bare">
+	<div class="shell masthead__in">
+
+					<a class="logo" href="../index.html" rel="home">
+				<img src="../wp-content/themes/triumph-family-law/assets/images/main-logo.png"
+				     alt="Triumph Family Lawyers" width="136" height="85">
+			</a>
+		
+		
+		<a class="callnum" href="tel:+61290373780">
+			<svg class="" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.4c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.3 0 .7-.2 1l-2.2 2.2z"/></svg>			02 9037 3780		</a>
+
+		
+	</div>
+</header>
+
+<main id="content">
+
+<section class="hero hero--landing" style="background-image:url('../wp-content/themes/triumph-family-law/assets/images/main-banner.jpg')">
+	<div class="shell hero__in">
+
+		<div>
+			<h1>Protect Your Home, Your Super And Your Time With Your Children</h1>
+
+							<p class="hero__sub">Sydney family lawyers acting on property settlements, asset division and parenting arrangements. Find out exactly where you stand — free, confidential, no obligation.</p>
+			
+			
+			
+								<div class="hero__badges">
+		<img src="../wp-content/themes/triumph-family-law/assets/images/banner-logos.png" alt="Professional body memberships" loading="lazy" width="533" height="70">
+	</div>
+						</div>
+
+		<div class="evalcard" id="enquiry">
+			<h2>Get Your Free Case Evaluation</h2>
+
+							<p class="evalcard__sub">Takes two minutes. Strictly confidential.</p>
+			
+				<form class="form" action="#" method="post" data-enquiry novalidate>
+
+		<input type="hidden" name="action" value="tfl_enquiry">
+		<input type="hidden" name="tfl_source" value="landing-free-case-evaluation">
+		<input type="hidden" name="tfl_redirect" value="#">
+		<input type="hidden" id="tfl_nonce" name="tfl_nonce" value="f5fb80e2a2" /><input type="hidden" name="_wp_http_referer" value="/free-case-evaluation/" />
+				<div class="tfl-hp" aria-hidden="true">
+			<label for="ld-website">Website</label>
+			<input id="ld-website" type="text" name="tfl_website" tabindex="-1" autocomplete="off">
+		</div>
+
+		<div class="form__ok" role="status">
+			Thank you — your enquiry has been sent. One of our family lawyers will contact you shortly.			For urgent matters call 02 9037 3780.		</div>
+
+		
+		<div class="form__row">
+			<label class="sr" for="ld-first">First name</label>
+			<input id="ld-first" name="first_name" type="text" placeholder="First Name *" autocomplete="given-name" required>
+
+			<label class="sr" for="ld-last">Last name</label>
+			<input id="ld-last" name="last_name" type="text" placeholder="Last Name *" autocomplete="family-name" required>
+		</div>
+
+		<div class="form__row">
+			<label class="sr" for="ld-phone">Phone number</label>
+			<input id="ld-phone" name="phone" type="tel" placeholder="Phone Number *" autocomplete="tel" required>
+
+			<label class="sr" for="ld-email">Email address</label>
+			<input id="ld-email" name="email" type="email" placeholder="Email Address *" autocomplete="email" required>
+		</div>
+
+		<label class="sr" for="ld-matter">Type of matter</label>
+		<select id="ld-matter" name="matter" required>
+			<option value="" selected disabled>Type Of Matter *</option>
+							<option value="Divorce &amp; Separation">Divorce &amp; Separation</option>
+							<option value="Parenting &amp; Custody">Parenting &amp; Custody</option>
+							<option value="Property Settlement">Property Settlement</option>
+							<option value="Financial &amp; Asset Division">Financial &amp; Asset Division</option>
+							<option value="Consent Orders">Consent Orders</option>
+							<option value="Mediation">Mediation</option>
+							<option value="Apprehended Violence Order">Apprehended Violence Order</option>
+							<option value="Other / Not Sure">Other / Not Sure</option>
+					</select>
+
+		<label class="sr" for="ld-msg">How can we help</label>
+		<textarea id="ld-msg" name="message" placeholder="How Can We Help You?" required></textarea>
+
+		<button class="btn btn--gold btn--wide" type="submit" data-label="Get My Free Case Evaluation">Get My Free Case Evaluation</button>
+
+					<p class="form__privacy">Your enquiry is confidential and protected by legal professional privilege.</p>
+			</form>
+			</div>
+
+	</div>
+</section>
+
+		<section class="stats">
+			<div class="shell">
+				<div class="stats__grid stats__grid--4">
+											<div class="stats__cell">
+															<span class="stats__n">60+</span>
+																						<span class="stats__l">Years Of Combined<br />
+Legal Experience</span>
+													</div>
+											<div class="stats__cell">
+															<span class="stats__n">100+</span>
+																						<span class="stats__l">5/5 Star Ratings On<br />
+Google</span>
+													</div>
+											<div class="stats__cell">
+															<span class="stats__n">2,000+</span>
+																						<span class="stats__l">Clients<br />
+Represented</span>
+													</div>
+											<div class="stats__cell">
+															<span class="stats__n">1,000+</span>
+																						<span class="stats__l">Court<br />
+Appearances</span>
+													</div>
+									</div>
+			</div>
+		</section>
+		
+	<section class="band">
+		<div class="shell">
+			<h2 class="h2 rv">The Two Things That Decide Your Future</h2>
+
+							<p class="sub rv rv-d1">Almost every separation comes down to these. Getting either one wrong is expensive, and in most cases permanent.</p>
+			
+			<div class="pillars pillars--2">
+														<div class="pillar rv rv-d0">
+													<svg class="pillar__ico" width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 3v18"/><path d="M4 7h16"/><path d="M8 7l-4 7a4 4 0 0 0 8 0z"/><path d="M16 7l4 7a4 4 0 0 1-8 0z"/></svg>						
+													<h3>Financial &amp; Asset Division</h3>
+						
+													<p>There is no automatic fifty-fifty split. The court identifies the asset pool, weighs what each of you contributed, then adjusts for future needs — a step that commonly moves the outcome by five to fifteen per cent.</p>
+<p>Superannuation is part of the pool and can be split by order. It is also the asset people most often sign away without realising. Before you agree to anything, you should know what the pool is actually worth.</p>
+						
+													<ul class="svc__list">
+																	<li>Full disclosure, valuations and asset tracing</li>
+																	<li>Superannuation splitting orders</li>
+																	<li>The family home — keep, refinance or sell</li>
+																	<li>Businesses, trusts and inheritances</li>
+																	<li>Binding financial agreements and consent orders</li>
+															</ul>
+											</div>
+														<div class="pillar rv rv-d1">
+													<svg class="pillar__ico" width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="8" cy="7" r="3"/><circle cx="17" cy="9" r="2.4"/><path d="M2.5 21v-2a4 4 0 0 1 4-4h3a4 4 0 0 1 4 4v2"/><path d="M15.5 21v-1.5a3.5 3.5 0 0 1 3-3.4"/></svg>						
+													<h3>Parenting &amp; Custody</h3>
+						
+													<p>The law does not start from a presumption of equal time. It starts from one question: what is in the best interests of the child, with their safety weighed above everything else.</p>
+<p>That changes what is worth arguing about. A parenting matter is won by presenting a workable, stable arrangement — not by proving your former partner was a poor spouse. We build the arrangement, then make it binding.</p>
+						
+													<ul class="svc__list">
+																	<li>Live-with and spend-time arrangements</li>
+																	<li>Parental responsibility, schooling and health</li>
+																	<li>Relocation, recovery and urgent applications</li>
+																	<li>Family dispute resolution and section 60I certificates</li>
+																	<li>Contravention where orders are not being followed</li>
+															</ul>
+											</div>
+							</div>
+
+			<p class="center rv" style="margin-top:2.8rem">
+				<a class="btn btn--gold" href="index.html#enquiry">Get My Free Case Evaluation</a>
+			</p>
+		</div>
+	</section>
+
+
+
+<section class="band band--gold">
+	<div class="shell">
+		<h2 class="h2 rv">What Our Clients Are Saying</h2>
+
+					<p class="sub rv rv-d1">We have helped families through the hardest year of their lives. Our experienced family lawyers work to protect your children, your home and your future. Here is what just a few of our clients have to say about our services.</p>
+		
+		<div class="quotes">
+							<figure class="quote rv rv-d0">
+					<p>Mr Mohammed Algalele is a professional on every level and always ready to do anything he can to help. Highly recommend Mr Algalele services to anyone seeking legal counsel. We will use his office again if ever needed.</p>
+					<cite>Sanaa A</cite>
+				</figure>
+							<figure class="quote rv rv-d1">
+					<p>Mohammad is a great solicitor. He was able to help my family on such short notice during a time that was extremely stressful. I am very grateful to him and his passion. Great solicitor and I will recommend him to all my friends and family.</p>
+					<cite>Antoinette I</cite>
+				</figure>
+							<figure class="quote rv rv-d2">
+					<p>One of the best law firms out here. They care about you as a person rather than just a client and make you feel very comfortable. They pay attention to detail and try their absolute best to reach their goal. They are trustworthy and never will let you down. I recommend this law firm for the best outcomes.</p>
+					<cite>Ataif A</cite>
+				</figure>
+					</div>
+	</div>
+</section>
+	<section class="band band--dark" style="background-image:url('../wp-content/themes/triumph-family-law/assets/images/sections-bg.jpg')">
+		<div class="shell">
+			<h2 class="h2 rv">What Happens When You Enquire</h2>
+
+							<p class="sub rv rv-d1">No call centre, no pressure, and no obligation to engage us.</p>
+			
+			<div class="why">
+									<div class="why__item rv rv-d0">
+													<span class="why__n">01</span>
+						
+													<h3>We call you back</h3>
+						
+													<p>Usually the same business day. A solicitor, not an intake operator.</p>
+											</div>
+									<div class="why__item rv rv-d1">
+													<span class="why__n">02</span>
+						
+													<h3>We tell you where you stand</h3>
+						
+													<p>A realistic view of the likely outcome on both property and parenting, in plain English.</p>
+											</div>
+									<div class="why__item rv rv-d2">
+													<span class="why__n">03</span>
+						
+													<h3>You get the cost in writing</h3>
+						
+													<p>A written estimate, with fixed fees wherever the work allows. Then you decide.</p>
+											</div>
+							</div>
+		</div>
+	</section>
+	
+<section class="band" id="enquiry-footer">
+	<div class="shell">
+		<div class="finalcta rv" style="background-image:url('../wp-content/themes/triumph-family-law/assets/images/case-evaluation-bg.jpg')">
+			<div class="finalcta__in">
+				<h2>Get Your Free Case Evaluation</h2>
+
+									<p class="finalcta__sub">Know Where You Stand. Protect Your Children. Protect Your Future.</p>
+				
+					<form class="form" action="#" method="post" data-enquiry novalidate>
+
+		<input type="hidden" name="action" value="tfl_enquiry">
+		<input type="hidden" name="tfl_source" value="landing-footer-free-case-evaluation">
+		<input type="hidden" name="tfl_redirect" value="#">
+		<input type="hidden" id="tfl_nonce" name="tfl_nonce" value="f5fb80e2a2" /><input type="hidden" name="_wp_http_referer" value="/free-case-evaluation/" />
+				<div class="tfl-hp" aria-hidden="true">
+			<label for="lf-website">Website</label>
+			<input id="lf-website" type="text" name="tfl_website" tabindex="-1" autocomplete="off">
+		</div>
+
+		<div class="form__ok" role="status">
+			Thank you — your enquiry has been sent. One of our family lawyers will contact you shortly.			For urgent matters call 02 9037 3780.		</div>
+
+		
+		<div class="form__row">
+			<label class="sr" for="lf-first">First name</label>
+			<input id="lf-first" name="first_name" type="text" placeholder="First Name *" autocomplete="given-name" required>
+
+			<label class="sr" for="lf-last">Last name</label>
+			<input id="lf-last" name="last_name" type="text" placeholder="Last Name *" autocomplete="family-name" required>
+		</div>
+
+		<div class="form__row">
+			<label class="sr" for="lf-phone">Phone number</label>
+			<input id="lf-phone" name="phone" type="tel" placeholder="Phone Number *" autocomplete="tel" required>
+
+			<label class="sr" for="lf-email">Email address</label>
+			<input id="lf-email" name="email" type="email" placeholder="Email Address *" autocomplete="email" required>
+		</div>
+
+		<label class="sr" for="lf-matter">Type of matter</label>
+		<select id="lf-matter" name="matter" required>
+			<option value="" selected disabled>Type Of Matter *</option>
+							<option value="Divorce &amp; Separation">Divorce &amp; Separation</option>
+							<option value="Parenting &amp; Custody">Parenting &amp; Custody</option>
+							<option value="Property Settlement">Property Settlement</option>
+							<option value="Financial &amp; Asset Division">Financial &amp; Asset Division</option>
+							<option value="Consent Orders">Consent Orders</option>
+							<option value="Mediation">Mediation</option>
+							<option value="Apprehended Violence Order">Apprehended Violence Order</option>
+							<option value="Other / Not Sure">Other / Not Sure</option>
+					</select>
+
+		<label class="sr" for="lf-msg">How can we help</label>
+		<textarea id="lf-msg" name="message" placeholder="How Can We Help You?" required></textarea>
+
+		<button class="btn btn--gold btn--wide" type="submit" data-label="Get My Free Case Evaluation">Get My Free Case Evaluation</button>
+
+					<p class="form__privacy">Your enquiry is confidential and protected by legal professional privilege.</p>
+			</form>
+				</div>
+		</div>
+	</div>
+</section>
+
+</main><!-- #content -->
+
+
+	<footer class="foot foot--bare">
+		<div class="shell foot__legal">
+			&copy; 2026 Triumph Family Lawyers.
+			Liability limited by a scheme approved under Professional Standards Legislation.			Information on this site is general only and is not legal advice.		</div>
+	</footer>
+
+
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/triumph-family-law/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script id="tfl-main-js" src="../wp-content/themes/triumph-family-law/assets/js/main.js"></script>
+
+
+<script>
+(function(){
+  document.querySelectorAll('form[data-enquiry]').forEach(function(f){
+    f.setAttribute('action','#');
+    f.addEventListener('submit', function(e){
+      e.preventDefault();
+      e.stopImmediatePropagation();
+      var ok = f.querySelector('.form__ok');
+      if(ok){
+        ok.textContent = 'This is a static preview, so the form is inactive here. On the live site this sends an email to the firm straight away.';
+        ok.classList.add('is-on');
+        ok.scrollIntoView({behavior:'smooth',block:'center'});
+      }
+    }, true);
+  });
+})();
+</script>
+	</body>
+</html>

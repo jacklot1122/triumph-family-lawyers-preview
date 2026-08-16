@@ -1,0 +1,9 @@
+Static preview of the Triumph Family Lawyers theme
+
+Exported from the local WordPress build for client design approval.
+
+Carries a preview banner and robots noindex: the stats, badges and reviews are
+carried over from the criminal law site and are not yet confirmed, and the
+enquiry forms have no backend in a static export.
+
+Co-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>
