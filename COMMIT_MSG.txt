@@ -1,10 +1,8 @@
-Add team photos, remove preview banner, mobile fixes
+Replace the intro image placeholders
 
-- Real headshots for Mohammed, Hasan, Asadullah and Ahmad replace the
-  initial monograms; bios updated to the firm's own wording
-- Preview banner removed at the client's request
-- Mobile: form inputs bumped to 16px so iOS Safari stops zooming the page
-  when a field is tapped, footer and nav tap targets raised to ~40px, and
-  small print lifted above 12px
+The homepage and About page were showing a dark "image to be supplied" block.
+Both now use the firm's own Lady Justice photograph, carried across from the
+criminal law site where it sits in the same slot. A warmer family-oriented
+photograph would suit this brand better — it's swappable in the Customiser.
 
 Co-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>

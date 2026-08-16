@@ -19,11 +19,11 @@ Design preview for **triumphfamilylawyers.com.au**, for client approval.
 
 ## Notes
 
-This is a static snapshot of the WordPress theme, exported so it can be viewed
-without PHP hosting. It looks and navigates exactly like the real thing.
+A static snapshot of the WordPress theme, exported so it can be viewed without
+PHP hosting. Looks and navigates exactly like the real thing.
 
-- **Forms don't send here.** There's no PHP behind a static export. Submitting
-  shows a note saying so. On the live site they email the firm immediately.
+- **Forms don't send here.** No PHP behind a static export. Submitting shows a
+  note saying so. On the live site they email the firm immediately.
 - **Set to noindex** via robots.txt and a meta tag, so it can't compete with the
   real site in search.
 
@@ -32,6 +32,9 @@ without PHP hosting. It looks and navigates exactly like the real thing.
 - Stats band, professional body badges and client reviews were carried over from
   the criminal law site and need the firm's sign-off. All removable in one click.
 - The logo is still the Sydney Triumph Lawyers mark — a family law version is needed.
+- The intro image on the homepage and About page is the firm's own Lady Justice
+  photograph, borrowed from the criminal law site as a stand-in. A warmer,
+  family-oriented photograph would suit this brand better.
 
 ## Source
 
