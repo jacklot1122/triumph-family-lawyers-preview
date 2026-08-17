@@ -17,27 +17,35 @@ Design preview for **triumphfamilylawyers.com.au**, for client approval.
 | Landing page — family law | [/free-case-evaluation/](https://jacklot1122.github.io/triumph-family-lawyers-preview/free-case-evaluation/) |
 | Landing page — criminal law | [/criminal-law/](https://jacklot1122.github.io/triumph-family-lawyers-preview/criminal-law/) |
 
-The criminal law landing page carries Mohammed's introduction video.
+## Videos
+
+| Where | Video |
+|---|---|
+| Home + family landing page | Family take (37s) |
+| Criminal landing page | Criminal take (41s) |
+
+Both play on click only — nothing downloads until someone presses play.
+
+**Note for the firm:** both videos are branded *"Sydney Triumph Lawyers"* and
+describe court appearances. On the family law domain that is a different trading
+name to the one in the video. Worth confirming before launch.
 
 ## Notes
 
 A static snapshot of the WordPress theme, exported so it can be viewed without
-PHP hosting. Looks and navigates exactly like the real thing.
+PHP hosting.
 
-- **Forms don't send here.** No PHP behind a static export. Submitting shows a
-  note saying so. On the live site they email the firm immediately.
-- **Set to noindex** via robots.txt and a meta tag, so it can't compete with the
-  real site in search.
+- **Forms don't send here.** No PHP behind a static export. On the live site they
+  email the firm immediately.
+- **Set to noindex** so it can't compete with the real site in search.
 
 ### Still to confirm before launch
 
-- Stats band, professional body badges and client reviews were carried over from
-  the criminal law site and need the firm's sign-off. All removable in one click.
-- The logo is still the Sydney Triumph Lawyers mark — a family law version is needed.
-- The intro image on the homepage and About page is the firm's own Lady Justice
-  photograph, used as a stand-in. A warmer family photograph would suit better.
+- Stats, professional body badges and reviews were carried over from the criminal
+  law site and need sign-off. All removable in one click.
+- The logo is still the Sydney Triumph Lawyers mark.
+- The intro image is the firm's own Lady Justice photograph, used as a stand-in.
 
 ## Source
 
 Theme source lives in a private repo: `jacklot1122/triumph-family-lawyers`.
-This repo holds only the rendered preview.

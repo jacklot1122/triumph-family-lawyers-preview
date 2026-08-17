@@ -1,6 +1,5 @@
-Add Mohammed's introduction video to the criminal law landing page
+Add the family law video to the homepage and family landing page
 
-Portrait 9:16, 41s, with a poster frame and preload="none" so the 8MB file
-only downloads when someone presses play.
+Criminal take stays on the criminal landing page. Both load on click only.
 
 Co-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>
