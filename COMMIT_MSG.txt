@@ -1,8 +1,6 @@
-Replace the intro image placeholders
+Add Mohammed's introduction video to the criminal law landing page
 
-The homepage and About page were showing a dark "image to be supplied" block.
-Both now use the firm's own Lady Justice photograph, carried across from the
-criminal law site where it sits in the same slot. A warmer family-oriented
-photograph would suit this brand better — it's swappable in the Customiser.
+Portrait 9:16, 41s, with a poster frame and preload="none" so the 8MB file
+only downloads when someone presses play.
 
 Co-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>

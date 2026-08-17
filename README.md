@@ -17,6 +17,8 @@ Design preview for **triumphfamilylawyers.com.au**, for client approval.
 | Landing page — family law | [/free-case-evaluation/](https://jacklot1122.github.io/triumph-family-lawyers-preview/free-case-evaluation/) |
 | Landing page — criminal law | [/criminal-law/](https://jacklot1122.github.io/triumph-family-lawyers-preview/criminal-law/) |
 
+The criminal law landing page carries Mohammed's introduction video.
+
 ## Notes
 
 A static snapshot of the WordPress theme, exported so it can be viewed without
@@ -33,8 +35,7 @@ PHP hosting. Looks and navigates exactly like the real thing.
   the criminal law site and need the firm's sign-off. All removable in one click.
 - The logo is still the Sydney Triumph Lawyers mark — a family law version is needed.
 - The intro image on the homepage and About page is the firm's own Lady Justice
-  photograph, borrowed from the criminal law site as a stand-in. A warmer,
-  family-oriented photograph would suit this brand better.
+  photograph, used as a stand-in. A warmer family photograph would suit better.
 
 ## Source
 

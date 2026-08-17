@@ -603,6 +603,52 @@
 .foot--bare { padding-top: 1rem; }
 .foot--bare .foot__legal { border-top: 0; }
 
+/* --- Video block -------------------------------------------------------- */
+/* Sized so a 9:16 phone video sits at a sensible height beside its copy
+   rather than running the full width of the page. */
+
+.videoblock__in {
+  display: grid;
+  grid-template-columns: minmax(0, 340px) minmax(0, 1fr);
+  gap: clamp(1.6rem, 4vw, 3.4rem);
+  align-items: center;
+  max-width: 940px;
+  margin-inline: auto;
+}
+
+.videoblock__in--solo {
+  grid-template-columns: minmax(0, 340px);
+  justify-content: center;
+}
+
+.videoblock__player {
+  border-radius: var(--r);
+  overflow: hidden;
+  background: #000;
+  border: 2px solid var(--gold);
+  box-shadow: 0 24px 50px -30px rgba(0, 0, 0, 0.6);
+  line-height: 0;
+}
+
+.videoblock__player video {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-height: 78vh;
+}
+
+.videoblock__copy p { color: var(--grey); line-height: 1.8; }
+.videoblock__copy p:first-child { margin-top: 0; }
+
+@media (max-width: 800px) {
+  .videoblock__in,
+  .videoblock__in--solo {
+    grid-template-columns: minmax(0, 320px);
+    justify-content: center;
+  }
+  .videoblock__copy { text-align: center; }
+}
+
 /* --- Blog --------------------------------------------------------------- */
 
 .postgrid {
