@@ -1,6 +1,6 @@
-New phone number and worded step labels
+Add both award badges
 
-Phone changed to 0403 845 057 across every page until the landline is set up.
-The 01/02/03 step markers are now First / Then / Finally.
+Quality Business Awards 2025 Winner on the home page and family landing page.
+Best Criminal Lawyer, Fairfield City Council on the criminal landing page.
 
 Co-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>

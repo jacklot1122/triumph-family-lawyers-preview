@@ -603,6 +603,117 @@
 .foot--bare { padding-top: 1rem; }
 .foot--bare .foot__legal { border-top: 0; }
 
+/* --- Hero proof row (memberships + award) ------------------------------- */
+
+.hero__proof {
+  display: flex;
+  align-items: center;
+  gap: clamp(1.2rem, 3vw, 2.2rem);
+  flex-wrap: wrap;
+  margin-top: 1.6rem;
+}
+
+.hero__proof .hero__badges { margin: 0; flex: 1 1 300px; min-width: 0; }
+.hero__proof .hero__badges img { width: 100%; max-width: 460px; height: auto; }
+
+.hero__award { flex: none; }
+
+.hero__award img {
+  height: clamp(78px, 11vw, 116px);
+  width: auto;
+  display: block;
+  /* Rounded so a badge supplied as a rectangular JPG (rather than a cut-out
+     PNG) still reads as deliberate against the hero photograph. */
+  border-radius: 5px;
+  filter: drop-shadow(0 6px 16px rgba(0, 0, 0, 0.45));
+}
+
+@media (max-width: 620px) {
+  .hero__proof { gap: 1.1rem; }
+  .hero__proof .hero__badges { flex: 1 1 100%; }
+  .hero__award img { height: 74px; }
+}
+
+/* --- "As Seen On" media strip ------------------------------------------- */
+
+.mediastrip {
+  background: var(--white);
+  border-bottom: 1px solid var(--line);
+  padding-block: clamp(1.6rem, 3vw, 2.4rem);
+  overflow: hidden;
+}
+
+.mediastrip__title {
+  text-align: center;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--grey);
+  margin: 0 0 1.3rem;
+}
+
+.mediastrip__viewport { width: 100%; }
+
+.mediastrip__track {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: clamp(1.8rem, 5vw, 3.6rem);
+}
+
+.mediastrip__track li { flex: none; }
+
+.mediastrip__track img {
+  height: 46px;
+  width: auto;
+  max-width: 160px;
+  object-fit: contain;
+  /* Mastheads come in every colour; greyscale keeps the row looking like one
+     set rather than a jumble, and lifts on hover. */
+  filter: grayscale(1);
+  opacity: 0.62;
+  transition: filter 0.3s var(--ease), opacity 0.3s var(--ease);
+}
+
+.mediastrip__track a:hover img,
+.mediastrip__track img:hover { filter: grayscale(0); opacity: 1; }
+
+/* Marquee, only when there are enough logos to overflow */
+.mediastrip__viewport.is-scrolling { position: relative; }
+
+.mediastrip__viewport.is-scrolling .mediastrip__track {
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  width: max-content;
+  animation: tflMarquee 34s linear infinite;
+}
+
+.mediastrip__viewport.is-scrolling:hover .mediastrip__track { animation-play-state: paused; }
+
+@keyframes tflMarquee {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+@media (max-width: 620px) {
+  .mediastrip__track img { height: 34px; max-width: 120px; }
+  .mediastrip__track { gap: 1.6rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .mediastrip__viewport.is-scrolling .mediastrip__track {
+    animation: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: auto;
+  }
+}
+
 /* --- Video block -------------------------------------------------------- */
 /* Sized so a 9:16 phone video sits at a sensible height beside its copy
    rather than running the full width of the page. */
