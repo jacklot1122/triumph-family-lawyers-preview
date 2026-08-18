@@ -1,6 +1,6 @@
-Move the video directly under the hero on every page
+New phone number and worded step labels
 
-Client asked for it at the top. It now sits immediately below the hero on the
-home page and both landing pages, ahead of the stats band.
+Phone changed to 0403 845 057 across every page until the landline is set up.
+The 01/02/03 step markers are now First / Then / Finally.
 
 Co-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>
