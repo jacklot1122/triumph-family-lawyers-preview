@@ -1,5 +1,6 @@
-Add the family law video to the homepage and family landing page
+Move the video directly under the hero on every page
 
-Criminal take stays on the criminal landing page. Both load on click only.
+Client asked for it at the top. It now sits immediately below the hero on the
+home page and both landing pages, ahead of the stats band.
 
 Co-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>
