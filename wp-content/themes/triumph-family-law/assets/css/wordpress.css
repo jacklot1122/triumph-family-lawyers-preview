@@ -603,6 +603,63 @@
 .foot--bare { padding-top: 1rem; }
 .foot--bare .foot__legal { border-top: 0; }
 
+/* --- Office locations --------------------------------------------------- */
+
+.offices__grid {
+  display: grid;
+  gap: clamp(1.8rem, 4vw, 3rem) clamp(1.6rem, 4vw, 3.4rem);
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  max-width: 1000px;
+  margin-inline: auto;
+}
+
+.offices__grid--1 { grid-template-columns: minmax(0, 420px); justify-content: center; }
+.offices__grid--2 { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); max-width: 760px; }
+
+.office__name {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin: 0 0 0.8rem;
+}
+
+.office__pin { flex: none; color: var(--gold); }
+
+.office__address {
+  font-size: 1.06rem;
+  line-height: 1.55;
+  color: var(--white);
+  margin: 0 0 0.7rem;
+}
+
+.office__note {
+  font-size: 0.9rem;
+  line-height: 1.55;
+  color: var(--grey-light);
+  margin: 0;
+}
+
+/* On a light background the palette flips */
+.offices:not(.band--dark) .office__address { color: var(--ink); }
+.offices:not(.band--dark) .office__note { color: var(--grey); }
+.offices:not(.band--dark) .office__name,
+.offices:not(.band--dark) .office__pin { color: var(--gold-dark); }
+
+/* Footer variant — compact, stacked */
+.foot__offices { display: grid; gap: 1rem; margin-top: 0.2rem; }
+.foot__offices .office__name { font-size: 0.72rem; margin-bottom: 0.35rem; }
+.foot__offices .office__address { font-size: 0.9rem; line-height: 1.5; margin-bottom: 0.2rem; color: var(--grey-light); }
+.foot__offices .office__note { font-size: 0.8rem; color: #8A8A8A; }
+
+@media (max-width: 620px) {
+  .office__address { font-size: 1rem; }
+}
+
 /* --- Hero proof row (memberships + award) ------------------------------- */
 
 .hero__proof {

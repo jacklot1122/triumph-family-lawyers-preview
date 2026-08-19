@@ -1,6 +1,7 @@
-Add both award badges
+Add the three office locations
 
-Quality Business Awards 2025 Winner on the home page and family landing page.
-Best Criminal Lawyer, Fairfield City Council on the criminal landing page.
+Sydney, Western Sydney and Newcastle, laid out with a gold pin, address and a
+note beneath. Shown on the contact page and in the footer. The old single Five
+Dock address is gone.
 
 Co-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>
