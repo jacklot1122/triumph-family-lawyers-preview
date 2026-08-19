@@ -1,7 +1,8 @@
-Add the three office locations
+Drop the map placeholder and the 24/7 footer line
 
-Sydney, Western Sydney and Newcastle, laid out with a gold pin, address and a
-note beneath. Shown on the contact page and in the footer. The old single Five
-Dock address is gone.
+The contact page no longer shows a "add a Google Maps embed" placeholder when
+no map is set — the offices grid already answers where the firm is. The
+"available 24/7, 365 days a year" line is removed from the footer and contact
+page.
 
 Co-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>
