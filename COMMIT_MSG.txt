@@ -1,8 +1,10 @@
-Drop the map placeholder and the 24/7 footer line
+Remove every 24/7 claim and show the offices on all pages
 
-The contact page no longer shows a "add a Google Maps embed" placeholder when
-no map is set — the offices grid already answers where the firm is. The
-"available 24/7, 365 days a year" line is removed from the footer and contact
-page.
+The firm has not confirmed round-the-clock availability, so "Available 24/7",
+"nights and weekends" and "we answer day or night" are all gone. The Why Choose
+card is now "Fast Response — same business day".
+
+Offices appear on all eight pages: in the footer on the main site and as a
+section on the landing pages, which use the bare footer.
 
 Co-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>
