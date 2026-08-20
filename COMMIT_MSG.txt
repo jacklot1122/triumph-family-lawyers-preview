@@ -1,10 +1,8 @@
-Remove every 24/7 claim and show the offices on all pages
+New headshot for Mohammed and Google-style reviews
 
-The firm has not confirmed round-the-clock availability, so "Available 24/7",
-"nights and weekends" and "we answer day or night" are all gone. The Why Choose
-card is now "Fast Response — same business day".
-
-Offices appear on all eight pages: in the footer on the main site and as a
-section on the landing pages, which use the bare footer.
+Reviews now show an EXCELLENT summary with stars and the Google wordmark above
+cards carrying an avatar, name, star rating and verified tick, matching the
+layout the client asked for. The review count is blank until the real figure is
+confirmed.
 
 Co-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>
