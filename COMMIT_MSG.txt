@@ -1,5 +1,8 @@
-Set the review count to 100+
+Six reviews on the landing pages, and remove a leaked internal note
 
-Matches the figure already published on sydneytriumphlawyers.com.au.
+Both landing pages now show the same six Google-style reviews as the home page
+rather than three. The criminal page was also publicly displaying a note meant
+for the client — "confirm with the office that you are happy to display them
+before it goes live" — which is gone.
 
 Co-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>
